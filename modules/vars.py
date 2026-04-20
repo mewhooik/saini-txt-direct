@@ -5,16 +5,16 @@ from os import environ
 
 API_ID = int(environ.get("API_ID", "20432564"))
 API_HASH = environ.get("API_HASH", "6efd58342f75a088f8a7b4a15bdd35cd")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8323812805:AAHA_2e487Seo6hfBajSSNbeSbB4k3ddFYI")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8790544217:AAF7SC-M6UGXwO-DMukWCVEvOnHgGIcuorc")
 
-OWNER = int(environ.get("OWNER", "8277882193"))
-CREDIT = environ.get("CREDIT", "Aditya OP")
+OWNER = int(environ.get("OWNER", "7566796700"))
+CREDIT = environ.get("CREDIT", "𓍯𝙎𝙪𝙟𝙖𝙡⚝")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '8277882193').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '7566796700').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
-AUTH_USER = os.environ.get('AUTH_USERS', '8277882193').split(',')
+AUTH_USER = os.environ.get('AUTH_USERS', '7566796700').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
